@@ -1,0 +1,480 @@
+body{
+    margin: 0;
+}
+.backg{
+    width: 100%;
+    height: 88.1vh;
+    background-image: url("../img/contact-us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-item{
+    color: white;
+}
+.drop-item:hover{
+    color: black;
+}
+
+.backg-idx{
+    width: 100%;
+    height: 88.1vh;
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backg-com{
+    width: 100%;
+    height: 88.1vh;
+    background-image: url("../img/committees.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backg-faq{
+    width: 100%;
+    height: 88.1vh;
+    background-image: url("../img/faq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backg-ot{
+    width: 100%;
+    height: 88.1vh;
+    background-image: url("../img/faq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backg-leg{
+    width: 100%;
+    height: 120vh;
+    background-image: url("../img/legal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backg-leg-s{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/legal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.inner-text{
+    color: white;
+}
+#cus{
+    font-size: 6vw;
+}
+#social{
+    border-radius: 5vh;
+    width: 100%;
+    margin-bottom: 2vh;
+    height: 8vh;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg{
+    float: left;
+    width: 25px;
+    margin-left: 5vw;
+}
+.svg1{
+    float: left;
+    width: 25px;
+}
+
+.l{
+    color: white;
+}
+
+.first{
+    width: 100%;
+    height: 40vh;
+    background-color: red;
+
+}
+
+.second{
+    width: 100%;
+    height: 40vh;
+    background-color: green;
+
+}
+
+.question{
+    margin-top: 5vh;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+.line{
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 3px solid black;
+    padding: 0 1px;
+    margin-top: 2vh;
+}
+
+.answer{
+    font-size: 1.3rem;
+    width: 70%;
+    margin-left: 15vw;
+    margin-top: 1vh;
+    font-weight: 400;
+    margin-bottom: 10vh;
+}
+
+.foot-img{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.foot-nav-group{
+    width: 80%;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+}
+
+.foot-nav-group > a{
+    text-decoration: none;
+    color: black;
+}
+
+.f{
+    margin-right: 4vw;
+}
+
+.foot-social{
+    margin-bottom: 5vh;
+}
+
+.com-01{
+    width: 80%;
+    margin-left: 10vw;
+    height: 40vh;
+    background-color: red;
+
+}
+
+.com-02{
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    height: 40vh;
+    background-color: purple;
+}
+
+.academy{
+    width: 80%;
+    margin-left: 10vw;
+}
+
+.name{
+    width: 20%;
+    margin-left: 40vw;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: blur(20px);
+    margin-top: 5vh;
+    color: white;
+    height: 7vh;
+    font-size: 24px;
+    line-height: 7vh;
+    border-radius: 4vh;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.53);
+    margin-bottom: 5vh;
+}
+
+.fla{
+    margin-bottom: 5vh;
+}
+
+.fir-line{
+    width: 32vw; 
+    margin-left: 0.65vw;
+}
+.sec-line{
+    width: 30vw; 
+    margin-left: 1vw;
+}
+
+.slider{
+    width: 60vw;
+    margin-left: 20vw;
+
+}
+
+.outer-carousel{
+    width: 100%;
+    height: 120vh;
+    background-image: url("../img/contact-us.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.car-desc{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+
+.com-line{
+    width: 40vw;
+    height: 40vh;
+}
+
+.flb{
+    margin-top: 15vh;
+}
+
+.comit-head{
+    color: white;
+    font-weight: 600;
+    font-size: 104px;
+}
+
+.comit-desc{
+    color: white;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.comit-phot{
+    width: 30vw;
+    height: 35vh;
+    margin-top: 5vh;
+    opacity: 0.7;
+}
+
+.comit-phot-desc{
+    margin-top: 5vh;
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1245px){
+    .name{
+        width: 40vw;
+        margin-left: 30vw;
+        background-color: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        margin-top: 5vh;
+        color: white;
+        height: 7vh;
+        font-size: 24px;
+        line-height: 7vh;
+        border-radius: 4vh;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.53);
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .outer-carousel{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../img/contact-us.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .outer-carousel{
+        width: 100%;
+        height: 80vh;
+        background-image: url("../img/contact-us.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .com-line{
+        width: 45vw;
+        height: 30vh;
+    }
+    .flb{
+        margin-top: 12vh;
+    }
+    .comit-phot{
+        width: 40vw;
+        height: 35vh;
+        margin-top: 7vh;
+    }
+    
+    .comit-phot-desc{
+        margin-top: 7vh;
+        width: 40vw;
+        height: 40vh;
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+    .outer-carousel{
+        width: 100%;
+        height: 65vh;
+        background-image: url("../img/contact-us.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .slider{
+        width: 80vw;
+        margin-left: 10vw;
+    
+    }
+    .com-line{
+        width: 45vw;
+        height: 25vh;
+    }
+    .flb{
+        margin-top: 10vh;
+    }
+
+    .name{
+        width: 60vw;
+        margin-left: 20vw;
+        background-color: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        margin-top: 5vh;
+        color: white;
+        height: 5vh;
+        font-size: 20px;
+        line-height: 5vh;
+        border-radius: 4vh;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.53);
+        margin-bottom: 5vh;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .outer-carousel{
+        width: 100%;
+        height: 60vh;
+        background-image: url("../img/contact-us.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fir-line{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .sec-line{
+        width: 75vw;
+        margin-left: 12.5vw;
+    }
+    .flb{
+        margin-top: 6vh;
+    }
+    .fls{
+        margin-top: 6vh;
+    }
+    
+    .com-line{
+        width: 80vw;
+        height: 35vh;
+    }
+    
+    .name{
+        width: 70vw;
+        margin-left: 15vw;
+        background-color: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        margin-top: 5vh;
+        color: white;
+        height: 5vh;
+        font-size: 20px;
+        line-height: 5vh;
+        border-radius: 4vh;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.53);
+        margin-bottom: 5vh;
+    }
+
+    .fla{
+        margin-bottom: 3vh;
+    }
+    
+    .fir-line{
+        width: 75vw; 
+        height: 20vh;
+        margin: 0;
+    }
+    .sec-line{
+        width: 75vw;
+        height: 20vh;
+        margin-bottom: 4vh;
+        margin-left: 0;
+    }
+    .comit-phot{
+        width: 80vw;
+        height: 35vh;
+        margin-top: 5vh;
+    }
+    
+    .comit-phot-desc{
+        margin-top: 5vh;
+        width: 80vw;
+        height: 30vh;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 10vw;
+    }
+    .backg-leg{
+        width: 100%;
+        height: 185vh;
+        background-image: url("../img/legal.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .comit-head{
+        color: white;
+        font-weight: 600;
+        font-size: 90px;
+    }
+    
+    .comit-desc{
+        color: white;
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .backg-leg-s{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../img/legal.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
