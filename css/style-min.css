@@ -126,7 +126,7 @@ body{
 
 .question{
     margin-top: 5vh;
-    font-size: 1.8rem;
+    font-size: 24px;
     font-weight: 600;
 
 }
@@ -139,13 +139,14 @@ body{
 }
 
 .answer{
-    font-size: 1.3rem;
+    font-size: 20px;
     width: 70%;
     margin-left: 15vw;
     margin-top: 1vh;
     font-weight: 400;
     margin-bottom: 10vh;
 }
+
 
 .foot-img{
     margin-top: 3vh;
@@ -276,6 +277,7 @@ body{
     font-size: 24px;
     font-weight: 400;
 }
+
 
 @media screen and (max-width: 1245px){
     .name{
