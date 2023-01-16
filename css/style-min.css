@@ -266,6 +266,7 @@ body{
     width: 30vw;
     height: 35vh;
     margin-top: 5vh;
+    opacity: 0.7;
 }
 
 .comit-phot-desc{
@@ -277,6 +278,21 @@ body{
     font-weight: 400;
 }
 
+#timer {
+    color: #fff;
+    font-weight: 500;
+    width: 80vw;
+    margin-top: 5vh;
+}
+.label {
+    font-size: 40px;
+}
+.apply-now{
+    width: 20vw;
+    height: 7vh;
+    font-weight: 400;
+    font-size: 24px;
+}
 
 @media screen and (max-width: 1245px){
     .name{
@@ -334,6 +350,12 @@ body{
         color: white;
         font-size: 24px;
         font-weight: 400;
+    }
+    .apply-now{
+        width: 25vw;
+        height: 7vh;
+        font-weight: 400;
+        font-size: 20px;
     }
 
 
@@ -477,5 +499,12 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+    .label{
+        font-size: 24px;
+    }
+    .apply-now{
+        width: 25vh;
+        height: 5vh;
+        font-size: 20px;
+    }
 }
