@@ -23,7 +23,7 @@ body{
 .backg-idx{
     width: 100%;
     height: 88.1vh;
-    background-image: url("../img/capafen.jpg");
+    background-image: url("../img/main.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
