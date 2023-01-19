@@ -1,6 +1,5 @@
 body{
     margin: 0;
-
 }
 .backg{
     width: 100%;
@@ -298,12 +297,6 @@ body{
     font-size: 24px;
 }
 
-.application-phot{
-    margin-top: 10vh;
-    width: 60vw;
-    height: 60vh;
-}
-
 .map{
     margin-top: 10vh;
 }
@@ -341,6 +334,20 @@ body{
 }
 
 
+.application-phot{
+    margin-top: 10vh;
+    width: 60vw;
+    height: 60vh;
+}
+
+.app-btn{
+    margin-top: 5vh;
+    width: 30vw;
+    font-size: 24px;
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 1);
+}
+
+
 /* Medai Queries Started Here */
 
 @media screen and (max-width: 1245px){
@@ -367,6 +374,11 @@ body{
         background-image: url("../img/contact-us.png");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .application-phot{
+        margin-top: 10vh;
+        width: 60vw;
+        height: 40vh;
     }
     
 }
@@ -416,6 +428,11 @@ body{
         font-weight: 200;
         margin-bottom: 4vh;
     }
+    .application-phot{
+        margin-top: 10vh;
+        width: 70vw;
+        height: 35vh;
+    }
 
 
 }
@@ -431,6 +448,19 @@ body{
         height: 45vh;
         margin-left: 0;
     }
+    .application-phot{
+        margin-top: 10vh;
+        width: 75vw;
+        height: 34vh;
+    }
+    
+    .app-btn{
+        margin-top: 5vh;
+        width: 35vw;
+        font-size: 20px;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 1);
+    }
+    
     
 }
 
@@ -603,5 +633,17 @@ body{
         margin-top: 1vh;
         font-weight: 400;
         margin-bottom: 10vh;
+    }
+    .application-phot{
+        margin-top: 10vh;
+        width: 90vw;
+        height: 27vh;
+    }
+    
+    .app-btn{
+        margin-top: 5vh;
+        width: 40vw;
+        font-size: 18px;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 1);
     }
 }
